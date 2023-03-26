@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&family=Volkhov&display=swap');
+
+#footer {
+    margin-top: 7rem;
+    padding: 3rem 0;
+    background: var(--color-primary);
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: var(--color-bg);
+}
+
+
+.footer__logo {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    display: inline-block;
+    font-family: 'Mate SC', serif;
+    font-family: 'Volkhov', serif;
+    font-style: italic;
+}
+
+.parmalinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 auto 3rem;
+}
+
+.footer__socials {
+    display: flex;
+    margin-bottom: 4rem;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footer__socials a {
+    background: var(--color-bg);
+    color: var(--color-white);
+    padding: 0.8rem;
+    border-radius: 0.7rem;
+    display: flex;
+    border: 1px solid transparent;
+}
+
+.footer__socials a :hover {
+    background: transparent;
+    color: var(--color-bg);
+    border-color: var(--color-bg);
+}
+
+.footer__copyright {
+    margin-bottom: 4rem;
+    color: var(--color-bg);
+}
+
+/* ======================= MEDIA QUERIES (SMALL DEVICES) ========================== */
+@media screen and (max-width:600px) {
+    .parmalinks {
+        flex-direction: column;
+        gap: 1.5rem;
+
+    }
+
+    .footer__socials {
+        margin-bottom: 2.6rem;
+    }
+}
+
+/* #footer {
+    margin-top: 3rem;
+    width: 100%;
+    padding: 3rem;
+    background: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    color: var(--color-bg)
+}
+
+.footer__logo {
+    text-align: center;
+    color: var(--color-bg)
+}
+
+.parmalinks {
+    display: flex;
+    flex-direction: row;
+    margin: 1.5rem auto;
+}
+
+.parmalinks li a {
+    color: var(--color-bg);
+    padding: 2rem;
+    font-size: 0.8rem;
+}
+
+.footer__socials {
+    display: flex;
+    width: 30%;
+    padding: 0 5px;
+    height: max-content;
+    border-radius: 50px;
+    flex-direction: row;
+    margin: 0.5rem auto;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-bg);
+    transition: all 400 ease;
+}
+
+.footer__socials:hover {
+    display: flex;
+    width: 100%;
+    padding: 0 5px;
+    height: max-content;
+    border-radius: 50px;
+    flex-direction: row;
+    margin: 0.5rem auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__socials a {
+    color: var(--color-primary);
+    padding: 2px;
+    font-size: 2rem;
+}
+
+.footer__socials a :hover {
+    color: black;
+}
+
+.footer__copyright {
+    display: flex;
+    padding-bottom: 2rem;
+    text-align: center;
+} */
